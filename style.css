@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.header-content {
+    margin: 0 150px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.big-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.big-text-description {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 50px;
+}
