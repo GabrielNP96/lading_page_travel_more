@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*style from header*/
+
 header {
     background-color: #1F2937;
     padding-bottom: 75px;
@@ -65,7 +67,41 @@ p.common-text {
     color: #E5E7EB;
 }
 
-img {
+.main-image {
     height: 300px;
     width: auto;
+}
+
+/*style from main content*/
+
+main {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.places {
+    display: flex;
+    justify-content: space-around;
+}
+
+.places-img {
+    text-align: center;
+}
+
+.images {
+    height: 100px;
+    width: auto;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.p-img {
+    padding: 2px;
 }
