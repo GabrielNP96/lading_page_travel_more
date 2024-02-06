@@ -76,7 +76,6 @@ p.common-text {
 
 main {
     margin-top: 35px;
-    margin-bottom: 55px;
 }
 
 h2 {
@@ -89,6 +88,7 @@ h2 {
 .places {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 70px;
 }
 
 .places-img {
@@ -104,4 +104,27 @@ h2 {
 
 .p-img {
     padding: 2px;
+}
+
+blockquote {
+    background-color: #E5E7EB;
+    padding: 115px;
+}
+
+.blockquote-p,
+.author {
+    color: #1F2937;
+}
+
+.blockquote-p {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.author {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+    padding: 30px;
 }
