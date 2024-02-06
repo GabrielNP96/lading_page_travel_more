@@ -5,6 +5,7 @@
 
 header {
     background-color: #1F2937;
+    padding-bottom: 75px;
 }
 
 .header-content {
@@ -24,8 +25,47 @@ header {
     font-weight: bolder;
 }
 
-.big-text-description {
+.itens {
+    margin: 5px;
+}
+
+.common-text {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:visited{
+    color: #E5E7EB;
+}
+
+.menu-content {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p.common-text {
+    margin-left: 5px;
+}
+
+.btn-sign-up {
+    width: 100px;
+    background-color: #3882F6;
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+img {
+    height: 300px;
+    width: auto;
 }
