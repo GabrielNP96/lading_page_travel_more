@@ -128,3 +128,33 @@ blockquote {
     text-align: end;
     padding: 30px;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 700px;
+    height: auto;
+    padding: 70px;
+    border-radius: 15px;
+    margin: 50px auto;
+    color: #E5E7EB;
+}
+
+.sign-up-h2 {
+    text-align: left;
+    color:#E5E7EB;
+}
+
+.sign-up-btn {
+    width: 100px;
+    background-color: #3882F6;
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+/*Style from footer*/
